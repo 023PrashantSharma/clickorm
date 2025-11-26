@@ -1,0 +1,10 @@
+# Ignore test files from ESLint (tests use different TypeScript config)
+tests/**/*.ts
+tests/**/*.js
+
+# Other ignores
+dist/
+node_modules/
+coverage/
+*.config.js
+*.config.cjs
